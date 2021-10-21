@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miBottomNavHome"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/miBottomNavSearch"
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
+        android:title="@string/menu_beatmap" />
+    <item
+        android:id="@+id/miBottomNavPerformance"
+        android:icon="@drawable/_4641169_e5676c80_d40b_11e9_80b5_6030915fbaa6"
+        android:title="@string/menu_performance" />
+</menu>

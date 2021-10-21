@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Beatmapp</string>
+
+    <!-- Search Fragment -->
+    <string name="search_value">0</string>
+    <string name="welcome_text">Welcome to Beatmapp</string>
+    <string name="beatmapID_search">Search using beatmapID</string>
+    <string name="beatmapsetID_search">Search using beatmapsetID</string>
+    <string name="search_button">Search</string>
+    <string name="or_text">OR</string>
+
+    <!-- Beatmap Fragment -->
+    <string name="song_name">Dear Brave</string>
+    <string name="artist_name">Kano</string>
+    <string name="diff_name">[Valor]</string>
+    <string name="mapper_name">Mapped by Kowari</string>
+    <string name="song_length">4:07</string>
+    <string name="BPM">188 BPM</string>
+    <string name="approach_rate">AR 9.4</string>
+    <string name="circle_size">CS 4.0</string>
+    <string name="overall_difficulty"> OD 9.2</string>
+    <string name="hp_drain">HP 6.0</string>
+    <string name="star_rating">6.50 stars</string>
+    <string name="status">Ranked</string>
+    <string name="cover">Beatmap cover image</string>
+    <string name="page_button">Go to beatmap page</string>
+
+    <!-- PP Fragment -->
+
+    <string name="pp_title">PP Calculator</string>
+    <string name="easy_mod">Easy</string>
+    <string name="nofail_mod">No Fail</string>
+    <string name="halftime_mod">Half Time</string>
+    <string name="hardrock_mod">Hard Rock</string>
+    <string name="doubletime_mod">Double Time</string>
+    <string name="hidden_mod">Hidden</string>
+    <string name="flashlight_mod">Flashlight</string>
+    <string name="accuracy_text">Enter accuracy (%)</string>
+    <string name="input_value">0</string>
+    <string name="combo_text">Enter maximum combo</string>
+    <string name="misses_text">Enter number of misses</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="pp_text">PP for this play</string>
+    <string name="pp_value">300 pp</string>
+
+    <!-- Diff Select Fragment -->
+
+    <string name="diff_title">Select a difficulty</string>
+    <string name="diff_easy">Easy</string>
+    <string name="diff_normal">Normal</string>
+    <string name="diff_hard">Hard</string>
+    <string name="diff_insane">Insane</string>
+    <string name="diff_extra">Extra</string>
+    <string name="diff_valor">Valor</string>
+    <string name="select_button">Select</string>
+
+    <!-- misc -->
+    <string name="menu_performance">Performance</string>
+    <string name="menu_beatmap">Beatmap</string>
+    <string name="menu_home">Home</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/beatmapFragment"
+        android:name="com.example.beatmapp.BeatmapFragment"
+        android:label="fragment_beatmap"
+        tools:layout="@layout/fragment_beatmap" >
+        <action
+            android:id="@+id/action_beatmap_to_performance"
+            app:destination="@id/performanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/performanceFragment"
+        android:name="com.example.beatmapp.PerformanceFragment"
+        android:label="fragment_performance"
+        tools:layout="@layout/fragment_performance" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.beatmapp.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_beatmap"
+            app:destination="@id/beatmapFragment" />
+    </fragment>
+</navigation>
